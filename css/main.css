@@ -1,0 +1,76 @@
+body{
+font-family: 'Abril Fatface', cursive;
+background-color: #0061ad;
+background-image: url(../img/uni.PNG);
+background-blend-mode: color;
+background-attachment: fixed;
+}
+div.user {
+  height: 50vh;
+  width: 70vh;
+  background-color: #008099;
+  margin: 0 auto;
+  box-shadow: 10px 5px 5px #0061ad;
+  font-size: 30px;
+  position: absolute;
+  top: 120px;
+  left: 32%;
+}
+div.stats {
+  height: 55vh;
+  width: 45vh;
+  background-color: #008099;
+  box-shadow: 10px 5px 5px #0061ad;
+  position: absolute;
+  bottom: 30px;
+  right: 830px;
+}
+div.active {
+  height: 55vh;
+  width: 45vh;
+  border: 5px solid #008099;
+  box-shadow: 10px 5px 5px #0061ad;
+
+}
+div.user img {
+height: 65%;
+border-radius: 50%;
+margin: 0 auto;
+display: block;
+}
+h4#userId, h1#username {
+  font-size: 30px;
+  margin: 0 auto;
+}
+div.second {
+  display: inline-block;
+}
+div.active {
+  float: right;
+}
+div.second, div.active {
+  margin: 10px 110px;
+}
+div.footer ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 395px;
+}
+div.footer li a {
+  color:black;
+  margin: 0 40px;
+  text-align: center;
+}
+.stats #progress #progress-percent {
+	margin: 0;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.stats #progress #progress-inner {
+	height: 100%;
+	background-color: #00bcd4;
+}
